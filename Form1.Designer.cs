@@ -81,6 +81,7 @@
             this.addDeliveryButton.TabIndex = 4;
             this.addDeliveryButton.Text = "Добавить";
             this.addDeliveryButton.UseVisualStyleBackColor = true;
+            this.addDeliveryButton.Click += new System.EventHandler(this.addDeliveryButton_Click);
             // 
             // removeDeliveryButton
             // 
@@ -90,6 +91,7 @@
             this.removeDeliveryButton.TabIndex = 5;
             this.removeDeliveryButton.Text = "Удалить";
             this.removeDeliveryButton.UseVisualStyleBackColor = true;
+            this.removeDeliveryButton.Click += new System.EventHandler(this.removeDeliveryButton_Click);
             // 
             // updateStatusButton
             // 
@@ -99,6 +101,7 @@
             this.updateStatusButton.TabIndex = 6;
             this.updateStatusButton.Text = "Обновить статус";
             this.updateStatusButton.UseVisualStyleBackColor = true;
+            this.updateStatusButton.Click += new System.EventHandler(this.updateStatusButton_Click);
             // 
             // deliveriesListBox
             // 
